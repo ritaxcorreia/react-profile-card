@@ -1,0 +1,36 @@
+.card-container {
+}
+
+.age {
+	font-weight: 200;
+}
+
+h1 {
+	font-weight: 400;
+}
+
+h2 {
+	font-weight: 200;
+}
+
+.social-container {
+}
+
+.followers {
+	border-top: solid rgb(206, 206, 206) 1px;
+}
+
+p {
+}
+
+.likes {
+}
+
+.photos {
+}
+
+img {
+	width: 100px;
+	border: solid white 4px;
+	border-radius: 50%;
+}
