@@ -3,4 +3,4 @@ Profile Card Component in ReactJS to practice basic component building in React,
 
 💻 https://react-profile-card.netlify.app/
 
-This project was based on this Frontend Mentor challenge emulating a real-life project workflow.
+This project was based on this [Frontend Mentor challenge](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ) emulating a real-life project workflow.
