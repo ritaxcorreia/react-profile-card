@@ -1,36 +1,68 @@
 .card-container {
+	background-color: white;
+	min-width: 300px;
+	max-width: 500px;
+	height: auto;
+	border-radius: 20px;
 }
 
-.age {
-	font-weight: 200;
-}
-
-h1 {
-	font-weight: 400;
-}
-
-h2 {
-	font-weight: 200;
-}
-
-.social-container {
-}
-
-.followers {
-	border-top: solid rgb(206, 206, 206) 1px;
-}
-
-p {
-}
-
-.likes {
-}
-
-.photos {
+header {
+	background-image: url("../images/bg-pattern-card.svg");
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
 }
 
 img {
+	margin: auto;
 	width: 100px;
 	border: solid white 4px;
 	border-radius: 50%;
+	margin-top: 75px;
+}
+
+.bold-text {
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 10px 20px 0px 20px;
+}
+
+.normal-text {
+	font-weight: normal;
+	font-size: 0.95rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* SOCIAL STATS */
+.smaller-text {
+	font-weight: normal;
+	font-size: 0.7rem;
+	color: hsl(0, 0%, 50%);
+	text-align: center;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+.social-container {
+	display: flex;
+	border-top: solid rgb(206, 206, 206) 1px;
+	text-align: center;
+}
+
+.followers {
+	flex: 1;
+}
+
+.likes {
+	flex: 1;
+}
+
+.photos {
+	flex: 1;
 }

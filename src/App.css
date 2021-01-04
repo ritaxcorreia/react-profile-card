@@ -1,23 +1,36 @@
-/* .background {
-} */
-
-.bg-pattern-top {
-	background-image: url("./images/bg-pattern-top.svg");
-	position: absolute;
-	transform: translate(0, 0) rotate(180deg) scaleX(-1);
-	opacity: 0.5;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+.background {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
 }
 
-/* .bg-pattern-bottom {
-	background-image: url("./images/bg-pattern-bottom.svg");
+.bg-pattern-top {
 	position: absolute;
-	transform: translate(50%, 0%) rotate(180deg) scaleY(-1);
+	background-image: url("./images/bg-pattern-top.svg");
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 1000px;
+	transform: translateY(-50%);
+	z-index: -1;
+}
+
+.bg-pattern-bottom {
+	background-image: url("./images/bg-pattern-bottom.svg");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	opacity: 0.7;
 	bottom: 0;
-	right: 50%;
-	width: 100%;
-	height: 100%;
-} */
+	right: 0;
+	width: 50%;
+	height: 1000px;
+	transform: translateY(50%);
+	z-index: -1;
+}

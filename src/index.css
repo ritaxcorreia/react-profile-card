@@ -1,11 +1,11 @@
 body {
 	margin: 0;
 	background-color: hsl(185, 75%, 39%);
-
 	font-family: "Kumbh Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 18px;
+	color: hsl(0, 0%, 25%);
 }
 
 code {
