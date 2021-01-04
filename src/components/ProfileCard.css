@@ -1,7 +1,7 @@
 .card-container {
 	background-color: white;
-	min-width: 300px;
-	max-width: 500px;
+	min-width: 320px;
+	max-width: 600px;
 	height: auto;
 	border-radius: 20px;
 }
@@ -47,6 +47,7 @@ img {
 	text-align: center;
 	letter-spacing: 1px;
 	padding-bottom: 20px;
+	line-height: 5px;
 }
 
 .social-container {
