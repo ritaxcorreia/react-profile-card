@@ -3,7 +3,7 @@
 	min-width: 320px;
 	max-width: 600px;
 	height: auto;
-	border-radius: 20px;
+	border-radius: 14px;
 }
 
 header {
@@ -12,8 +12,8 @@ header {
 	background-repeat: no-repeat;
 	background-size: contain;
 	text-align: center;
-	border-top-left-radius: 20px;
-	border-top-right-radius: 20px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
 }
 
 img {
